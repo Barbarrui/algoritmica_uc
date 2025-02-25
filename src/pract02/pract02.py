@@ -52,6 +52,7 @@ T = [[0], [0], [0]]
 A = [i for i in range(n)]
 
 for i in range(n // 100, n, n // 100):
+    print("PIJA")
     t = time.time()
     Mayoritario1(A, 0, i)
     T[0].append(time.time() - t)
